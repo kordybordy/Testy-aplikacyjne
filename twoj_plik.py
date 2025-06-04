@@ -4,7 +4,7 @@ import streamlit as st
 import time
 
 # Stałe
-DB_PATH = "quiz_questions_final_clean_600.db"
+DB_PATH = "pytania_egzaminacyjne.db"
 QUESTION_LIMIT = 150
 QUIZ_DURATION_SECONDS = 150 * 60  # 150 minut
 
@@ -12,7 +12,7 @@ QUIZ_DURATION_SECONDS = 150 * 60  # 150 minut
 def get_random_questions():
     conn = sqlite3.connect(DB_PATH)
     cursor = conn.cursor()
-    cursor.execute("SELECT year, number, question, option_a, option_b, option_c, correct_answer, legal_basis FROM questions")
+    cursor.execute("SELECT rok, numer, tresc, odpowiedz_a, odpowiedz_b, odpowiedz_c, poprawna_odpowiedz, podstawa_prawna FROM pytania")
     all_questions = cursor.fetchall()
     conn.close()
     return random.sample(all_questions, min(QUESTION_LIMIT, len(all_questions)))
@@ -55,12 +55,12 @@ current_index = st.session_state.current
 
 if current_index < len(questions):
     q = questions[current_index]
-    year, number, question, a, b, c, correct, legal_basis = q
+    rok, numer, tresc, a, b, c, correct, legal_basis = q
 
     correct = (correct or '').strip().upper()
 
     st.write(f"### Pytanie {current_index + 1} z {len(questions)}")
-    st.write(question)
+    st.write(tresc)
 
     user_answer = st.radio("Wybierz odpowiedź:", [f"A: {a}", f"B: {b}", f"C: {c}"], key=f"user_answer_{current_index}")
 
