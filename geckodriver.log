@@ -1,0 +1,124 @@
+1749084600607	geckodriver	INFO	Listening on 127.0.0.1:63745
+1749084603669	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "63746" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\User\\AppData\\Local\\Temp\\rust_mozprofile99ZQRc"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1749084604028	Marionette	INFO	Marionette enabled
+1749084604214	Marionette	INFO	Listening on port 63756
+WebDriver BiDi listening on ws://127.0.0.1:63746
+Read port: 63756
+1749084604337	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1749084607307	Marionette	INFO	Stopped listening on port 63756
+Dynamically enable window occlusion 1
+console.error: "Failed to fetch https://ads.mozilla.org/v1/delete_user:" "NetworkError when attempting to fetch resource."
+console.warn: TopSitesFeed: Failed to fetch data from MARS server: NetworkError when attempting to fetch resource.
+console.error: services.settings: 
+Object
+  - prototype Object
+    - columnNumber = 0
+    - data = null
+    - filename = resource://gre/modules/ServiceRequest.sys.mjs
+    - lineNumber = 126
+    - location = {"name":"open","filename":"resource://gre/modules/ServiceRequest.sys.mjs","sourceId":27,"lineNumber":126,"columnNumber":11,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/Utils.sys.mjs","name":"fetch/<","sourceId":26,"lineNumber":268,"columnNumber":15,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/Utils.sys.mjs","name":"fetch","sourceId":26,"lineNumber":219,"columnNumber":12,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/Utils.sys.mjs","name":"fetchLatestChanges","sourceId":26,"lineNumber":429,"columnNumber":34,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/RemoteSettingsClient.sys.mjs","name":"sync","sourceId":24,"lineNumber":625,"columnNumber":42,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/RemoteSettingsClient.sys.mjs","name":"get/this._importingPromise<","sourceId":24,"lineNumber":477,"columnNumber":28,"asyncCause":null,"asyncCaller":null,"caller":null,"formattedStack":"get/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:477:28\n","nativeSavedFrame":{}},"formattedStack":"sync@resource://services-settings/RemoteSettingsClient.sys.mjs:625:42\nget/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:477:28\n","nativeSavedFrame":{}},"formattedStack":"fetchLatestChanges@resource://services-settings/Utils.sys.mjs:429:34\nsync@resource://services-settings/RemoteSettingsClient.sys.mjs:625:42\nget/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:477:28\n","nativeSavedFrame":{}},"formattedStack":"fetch@resource://services-settings/Utils.sys.mjs:219:12\nfetchLatestChanges@resource://services-settings/Utils.sys.mjs:429:34\nsync@resource://services-settings/RemoteSettingsClient.sys.mjs:625:42\nget/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:477:28\n","nativeSavedFrame":{}},"formattedStack":"fetch/<@resource://services-settings/Utils.sys.mjs:268:15\nfetch@resource://services-settings/Utils.sys.mjs:219:12\nfetchLatestChanges@resource://services-settings/Utils.sys.mjs:429:34\nsync@resource://services-settings/RemoteSettingsClient.sys.mjs:625:42\nget/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:477:28\n","nativeSavedFrame":{}},"formattedStack":"open@resource://gre/modules/ServiceRequest.sys.mjs:126:11\nfetch/<@resource://services-settings/Utils.sys.mjs:268:15\nfetch@resource://services-settings/Utils.sys.mjs:219:12\nfetchLatestChanges@resource://services-settings/Utils.sys.mjs:429:34\nsync@resource://services-settings/RemoteSettingsClient.sys.mjs:625:42\nget/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:477:28\n","nativeSavedFrame":{}}
+    - message = 
+    - name = 
+    - result = 2152071198
+    - stack = open@resource://gre/modules/ServiceRequest.sys.mjs:126:11|fetch/<@resource://services-settings/Utils.sys.mjs:268:15|fetch@resource://services-settings/Utils.sys.mjs:219:12|fetchLatestChanges@resource://services-settings/Utils.sys.mjs:429:34|sync@resource://services-settings/RemoteSettingsClient.sys.mjs:625:42|get/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:477:28|
+  - prototype Object
+1749084837318	geckodriver	INFO	Listening on 127.0.0.1:63802
+1749084840376	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "63803" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\User\\AppData\\Local\\Temp\\rust_mozprofileMc2th9"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1749084840649	Marionette	INFO	Marionette enabled
+1749084840835	Marionette	INFO	Listening on port 63810
+WebDriver BiDi listening on ws://127.0.0.1:63803
+Read port: 63810
+1749084840945	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1749085109271	Marionette	INFO	Stopped listening on port 63810
+Dynamically enable window occlusion 1
+console.error: "Failed to fetch https://ads.mozilla.org/v1/delete_user:" "NetworkError when attempting to fetch resource."
+console.warn: TopSitesFeed: Failed to fetch data from MARS server: NetworkError when attempting to fetch resource.
+console.error: services.settings: 
+Object
+  - prototype Object
+    - columnNumber = 0
+    - data = null
+    - filename = resource://gre/modules/ServiceRequest.sys.mjs
+    - lineNumber = 126
+    - location = {"name":"open","filename":"resource://gre/modules/ServiceRequest.sys.mjs","sourceId":27,"lineNumber":126,"columnNumber":11,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/Utils.sys.mjs","name":"fetch/<","sourceId":26,"lineNumber":268,"columnNumber":15,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/Utils.sys.mjs","name":"fetch","sourceId":26,"lineNumber":219,"columnNumber":12,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/Utils.sys.mjs","name":"fetchLatestChanges","sourceId":26,"lineNumber":429,"columnNumber":34,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/RemoteSettingsClient.sys.mjs","name":"sync","sourceId":24,"lineNumber":625,"columnNumber":42,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/RemoteSettingsClient.sys.mjs","name":"get/this._importingPromise<","sourceId":24,"lineNumber":477,"columnNumber":28,"asyncCause":null,"asyncCaller":null,"caller":null,"formattedStack":"get/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:477:28\n","nativeSavedFrame":{}},"formattedStack":"sync@resource://services-settings/RemoteSettingsClient.sys.mjs:625:42\nget/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:477:28\n","nativeSavedFrame":{}},"formattedStack":"fetchLatestChanges@resource://services-settings/Utils.sys.mjs:429:34\nsync@resource://services-settings/RemoteSettingsClient.sys.mjs:625:42\nget/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:477:28\n","nativeSavedFrame":{}},"formattedStack":"fetch@resource://services-settings/Utils.sys.mjs:219:12\nfetchLatestChanges@resource://services-settings/Utils.sys.mjs:429:34\nsync@resource://services-settings/RemoteSettingsClient.sys.mjs:625:42\nget/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:477:28\n","nativeSavedFrame":{}},"formattedStack":"fetch/<@resource://services-settings/Utils.sys.mjs:268:15\nfetch@resource://services-settings/Utils.sys.mjs:219:12\nfetchLatestChanges@resource://services-settings/Utils.sys.mjs:429:34\nsync@resource://services-settings/RemoteSettingsClient.sys.mjs:625:42\nget/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:477:28\n","nativeSavedFrame":{}},"formattedStack":"open@resource://gre/modules/ServiceRequest.sys.mjs:126:11\nfetch/<@resource://services-settings/Utils.sys.mjs:268:15\nfetch@resource://services-settings/Utils.sys.mjs:219:12\nfetchLatestChanges@resource://services-settings/Utils.sys.mjs:429:34\nsync@resource://services-settings/RemoteSettingsClient.sys.mjs:625:42\nget/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:477:28\n","nativeSavedFrame":{}}
+    - message = 
+    - name = 
+    - result = 2152071198
+    - stack = open@resource://gre/modules/ServiceRequest.sys.mjs:126:11|fetch/<@resource://services-settings/Utils.sys.mjs:268:15|fetch@resource://services-settings/Utils.sys.mjs:219:12|fetchLatestChanges@resource://services-settings/Utils.sys.mjs:429:34|sync@resource://services-settings/RemoteSettingsClient.sys.mjs:625:42|get/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:477:28|
+  - prototype Object
+1749085119166	geckodriver	INFO	Listening on 127.0.0.1:63864
+1749085122233	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "63865" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\User\\AppData\\Local\\Temp\\rust_mozprofileAtfK9j"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1749085122516	Marionette	INFO	Marionette enabled
+1749085122695	Marionette	INFO	Listening on port 63872
+WebDriver BiDi listening on ws://127.0.0.1:63865
+Read port: 63872
+1749085122813	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1749085501424	Marionette	INFO	Stopped listening on port 63872
+Dynamically enable window occlusion 1
+console.error: "Failed to fetch https://ads.mozilla.org/v1/delete_user:" "NetworkError when attempting to fetch resource."
+console.warn: TopSitesFeed: Failed to fetch data from MARS server: NetworkError when attempting to fetch resource.
+console.error: services.settings: 
+Object
+  - prototype Object
+    - columnNumber = 0
+    - data = null
+    - filename = resource://gre/modules/ServiceRequest.sys.mjs
+    - lineNumber = 126
+    - location = {"name":"open","filename":"resource://gre/modules/ServiceRequest.sys.mjs","sourceId":27,"lineNumber":126,"columnNumber":11,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/Utils.sys.mjs","name":"fetch/<","sourceId":26,"lineNumber":268,"columnNumber":15,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/Utils.sys.mjs","name":"fetch","sourceId":26,"lineNumber":219,"columnNumber":12,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/Utils.sys.mjs","name":"fetchLatestChanges","sourceId":26,"lineNumber":429,"columnNumber":34,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/RemoteSettingsClient.sys.mjs","name":"sync","sourceId":24,"lineNumber":625,"columnNumber":42,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/RemoteSettingsClient.sys.mjs","name":"get/this._importingPromise<","sourceId":24,"lineNumber":477,"columnNumber":28,"asyncCause":null,"asyncCaller":null,"caller":null,"formattedStack":"get/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:477:28\n","nativeSavedFrame":{}},"formattedStack":"sync@resource://services-settings/RemoteSettingsClient.sys.mjs:625:42\nget/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:477:28\n","nativeSavedFrame":{}},"formattedStack":"fetchLatestChanges@resource://services-settings/Utils.sys.mjs:429:34\nsync@resource://services-settings/RemoteSettingsClient.sys.mjs:625:42\nget/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:477:28\n","nativeSavedFrame":{}},"formattedStack":"fetch@resource://services-settings/Utils.sys.mjs:219:12\nfetchLatestChanges@resource://services-settings/Utils.sys.mjs:429:34\nsync@resource://services-settings/RemoteSettingsClient.sys.mjs:625:42\nget/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:477:28\n","nativeSavedFrame":{}},"formattedStack":"fetch/<@resource://services-settings/Utils.sys.mjs:268:15\nfetch@resource://services-settings/Utils.sys.mjs:219:12\nfetchLatestChanges@resource://services-settings/Utils.sys.mjs:429:34\nsync@resource://services-settings/RemoteSettingsClient.sys.mjs:625:42\nget/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:477:28\n","nativeSavedFrame":{}},"formattedStack":"open@resource://gre/modules/ServiceRequest.sys.mjs:126:11\nfetch/<@resource://services-settings/Utils.sys.mjs:268:15\nfetch@resource://services-settings/Utils.sys.mjs:219:12\nfetchLatestChanges@resource://services-settings/Utils.sys.mjs:429:34\nsync@resource://services-settings/RemoteSettingsClient.sys.mjs:625:42\nget/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:477:28\n","nativeSavedFrame":{}}
+    - message = 
+    - name = 
+    - result = 2152071198
+    - stack = open@resource://gre/modules/ServiceRequest.sys.mjs:126:11|fetch/<@resource://services-settings/Utils.sys.mjs:268:15|fetch@resource://services-settings/Utils.sys.mjs:219:12|fetchLatestChanges@resource://services-settings/Utils.sys.mjs:429:34|sync@resource://services-settings/RemoteSettingsClient.sys.mjs:625:42|get/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:477:28|
+  - prototype Object
+1749085512138	geckodriver	INFO	Listening on 127.0.0.1:63927
+1749085515181	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "63928" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\User\\AppData\\Local\\Temp\\rust_mozprofileQpFs2t"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1749085515470	Marionette	INFO	Marionette enabled
+1749085515638	Marionette	INFO	Listening on port 63935
+WebDriver BiDi listening on ws://127.0.0.1:63928
+Read port: 63935
+1749085515774	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+Exiting due to channel error.
+Exiting due to channel error.
+1749085652175	geckodriver	INFO	Listening on 127.0.0.1:63975
+1749085655236	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "63976" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\User\\AppData\\Local\\Temp\\rust_mozprofilejNzZQF"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1749085655513	Marionette	INFO	Marionette enabled
+1749085655702	Marionette	INFO	Listening on port 63984
+WebDriver BiDi listening on ws://127.0.0.1:63976
+Read port: 63984
+1749085655824	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1749085845257	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:205:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:189:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:465:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:218:33
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1749086311132	geckodriver	INFO	Listening on 127.0.0.1:64089
+1749086314195	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "64090" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\User\\AppData\\Local\\Temp\\rust_mozprofile1jLyZG"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1749086314480	Marionette	INFO	Marionette enabled
+1749086314628	Marionette	INFO	Listening on port 64099
+WebDriver BiDi listening on ws://127.0.0.1:64090
+Read port: 64099
+1749086314782	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+Exiting due to channel error.
+Exiting due to channel error.

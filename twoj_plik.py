@@ -48,7 +48,10 @@ if remaining <= 0:
 minutes = int(remaining // 60)
 seconds = int(remaining % 60)
 st.write(f"### ⏳ Pozostały czas: {minutes:02d}:{seconds:02d}")
-st.progress((st.session_state.current + 1) / max(QUESTION_LIMIT, len(st.session_state.questions)))
+progress_max = max(QUESTION_LIMIT, len(st.session_state.questions))
+progress_value = (st.session_state.current + 1) / progress_max
+progress_value = min(progress_value, 1.0)
+st.progress(progress_value)
 
 questions = st.session_state.questions
 current_index = st.session_state.current
